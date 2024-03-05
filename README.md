@@ -17,5 +17,19 @@ This project implements a dynamic CRUD (Create, Read, Update, Delete) API using 
     "grade": "A",
     "department": "Computer Science"
   }
+  
+### Read (GET)
 
+- **Endpoint:** `api/{tableName}/{id}`
+- **Method:** `GET`
+- **Description:** Retrieve a record from the specified table by its ID.
+- **Request Body:**
+  ```json
+  {
+  "id": 12345,
+  "name": "John Doe",
+  "age": 25,
+  "grade": "A",
+  "department": "Computer Science"
+  }
 
